@@ -7,14 +7,14 @@ class Pickup {
     this.nearPacman = false;
 
     this.fruitImages = {
-      100: 'cherry',
-      300: 'strawberry',
-      500: 'orange',
-      700: 'apple',
-      1000: 'melon',
-      2000: 'galaxian',
-      3000: 'bell',
-      5000: 'key',
+      10000: 'cherry',
+      30000: 'strawberry',
+      50000: 'orange',
+      70000: 'apple',
+      100000: 'melon',
+      200000: 'galaxian',
+      300000: 'bell',
+      500000: 'key',
     };
 
     this.setStyleMeasurements(type, scaledTileSize, column, row, points);
